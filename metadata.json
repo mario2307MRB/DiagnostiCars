@@ -1,0 +1,5 @@
+{
+  "name": "AI Auto-Diagnóstico",
+  "description": "Una aplicación web para diagnosticar problemas de vehículos utilizando IA. Los usuarios pueden ingresar detalles del vehículo y síntomas para recibir un informe de diagnóstico completo, que incluye posibles causas, instrucciones de reparación, repuestos necesarios y talleres recomendados en Chile.",
+  "requestFramePermissions": []
+}
