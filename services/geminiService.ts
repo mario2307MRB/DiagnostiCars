@@ -1,9 +1,10 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { FormState, Report } from '../types';
 
+// FIX: Use process.env.API_KEY as per coding guidelines to resolve TypeScript error.
 const API_KEY = process.env.API_KEY;
 if (!API_KEY) {
-    throw new Error("API_KEY environment variable not set");
+    throw new Error("API_KEY environment variable not set. Make sure to set it in your Vercel project settings.");
 }
 const ai = new GoogleGenAI({ apiKey: API_KEY });
 
